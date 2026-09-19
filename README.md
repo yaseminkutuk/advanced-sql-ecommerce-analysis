@@ -2,8 +2,6 @@
 
 A collection of SQL analyses and business questions completed as part of an advanced MySQL analytics course.
 
-**Course:** [Advanced SQL: MySQL for Ecommerce Data Analysis]((https://www.udemy.com/course/advanced-sql-mysql-for-analytics-business-intelligence/learn/lecture/16450282#overview))
-
 The purpose of this repository is to practice SQL through real-world e-commerce business problems and develop analytical thinking for Data Analyst and Business Analyst roles.
 
 All SQL queries in this repository were independently written and solved.
@@ -38,3 +36,11 @@ The repository will cover a range of SQL and business analytics topics, includin
 - Business metrics
 
 *Topics will be added as the course progresses.*
+
+##  Course
+
+This repository is based on exercises from:
+
+**Advanced SQL: MySQL for Ecommerce Data Analysis**
+
+[View the course on Udemy](https://www.udemy.com/course/advanced-sql-mysql-for-analytics-business-intelligence/)
