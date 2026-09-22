@@ -2,7 +2,7 @@
 
 -- Business Question:
 -- What is the conversion rate from session to order by device type?
--- Analysis date: 2012-05-11
+-- Request date: 2012-05-11
 
 select 
 ws.device_type,
