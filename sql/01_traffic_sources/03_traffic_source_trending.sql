@@ -2,7 +2,7 @@
 
 -- Business Question:
 -- How has gsearch nonbrand session volume changed over time?
--- Analysis date: 2012-05-10
+-- Request date: 2012-05-10
 
 -- solution 1: Weekly trend using year and week
 select 
