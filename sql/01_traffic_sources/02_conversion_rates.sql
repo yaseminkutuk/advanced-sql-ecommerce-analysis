@@ -2,7 +2,7 @@
 
 -- 	Business Question:
 -- What is the conversion rate from session to order for the major traffic source?
--- Analysis date: 2012-04-14
+-- Request date: 2012-04-14
 
 select 
 count(distinct ws.website_session_id) as sessions,
