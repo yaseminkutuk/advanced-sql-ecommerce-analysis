@@ -3,7 +3,7 @@
 -- Business Question:
 -- How do weekly desktop and mobile session volumes compare before the bid optimization?
 -- Baseline period: 2012-04-15 onward
--- Analysis date: 2012-06-09
+-- Request date: 2012-06-09
 
 select 
 min(date(created_at)) as week_start_date,
