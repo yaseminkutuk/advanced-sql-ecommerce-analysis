@@ -1,4 +1,4 @@
--- 	4. Analyzing Landing Page Tests
+-- 	4. Landing Page Tests Analysis
 
 -- Business Question:
 -- Based on bounce rate analysis, a landing page(/lander-1) is created in a 50/50 test against homepage for gsearch non brand traffic.
