@@ -72,6 +72,25 @@ and utm_campaign = "nonbrand";
 
 -- Results:
 -- sessions since:22972.
--- 0.0406 for lander and 0.0318 for home: the difference is 0.0088. 22972 x 0.0088 = 202 
+-- 0.0406 for lander and 0.0318 for home: the difference is 0.0088. 22972 × 0.0088 ≈ 202
 -- 202 incremental orders since July 29th.
 -- Approximately 50 incremental orders per month.
+
+SELECT
+    COUNT(DISTINCT o.order_id) AS orders,
+    SUM(o.price_usd) AS revenue,
+    SUM(o.price_usd) / COUNT(DISTINCT o.order_id) AS avg_order_value
+FROM website_sessions AS ws
+LEFT JOIN orders AS o
+    ON o.website_session_id = ws.website_session_id
+WHERE ws.created_at < '2012-11-27'
+  AND ws.website_session_id > 17145
+  AND ws.utm_source = 'gsearch'
+  AND ws.utm_campaign = 'nonbrand';
+
+-- Results:
+-- 931 orders since the test
+-- $46,540.69 revenue since the test
+-- $49.99 average order value
+-- Incremental orders: 22,972 × 0.0088 ≈ 202
+-- Estimated incremental revenue: 202 × $49.99 ≈ $10,097.98
