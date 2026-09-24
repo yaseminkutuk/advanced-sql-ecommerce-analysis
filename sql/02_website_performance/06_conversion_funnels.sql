@@ -21,7 +21,8 @@ from website_sessions as ws
 left join website_pageviews as wp on wp.website_session_id = ws.website_session_id
 where ws.utm_source ="gsearch"
 and ws.utm_campaign = "nonbrand"
-and ws.created_at between "2012-08-05" and "2012-09-05";
+and ws.created_at > "2012-08-05" 
+and ws.created_at < "2012-09-05";
 
 -- step2. identify each pageview as specific funnel step:
 create temporary table session_level_made_it
@@ -46,7 +47,8 @@ from website_sessions as ws
 left join website_pageviews as wp on wp.website_session_id = ws.website_session_id
 where ws.utm_source ="gsearch"
 and ws.utm_campaign = "nonbrand"
-and ws.created_at between "2012-08-05" and "2012-09-05") as pageview_level
+and ws.created_at > "2012-08-05" 
+and ws.created_at < "2012-09-05") as pageview_level
 group by website_session_id;
 
 -- step3: create the session level conversion funnel:
