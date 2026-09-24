@@ -22,6 +22,7 @@ count(o.order_id)/count(wp.website_session_id) order_session_conv
 from website_pageviews as wp
 left join orders as o on o.website_session_id = wp.website_session_id
 where wp.pageview_url in ("/billing","/billing-2")
-and wp.created_at between "2012-09-10" and "2012-11-10"
+and wp.created_at > "2012-09-10" 
+and wp.created_at < "2012-11-10"
 group by wp.pageview_url
 order by order_session_conv asc;
