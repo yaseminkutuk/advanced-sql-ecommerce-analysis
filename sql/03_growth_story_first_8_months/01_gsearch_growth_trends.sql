@@ -1,7 +1,9 @@
+-- Growth Story for First 8 Months of the Company
+-- Request date: 2012-11-27
+
 -- Business Question 1:
 -- Gsearch seems to be the biggest driver of our business. 
 -- Could you pull monthly trends for gsearch sessions and orders so that we can showcase the growth
--- Request date: 2012-11-27
 
 select 
 month(ws.created_at) as month,
