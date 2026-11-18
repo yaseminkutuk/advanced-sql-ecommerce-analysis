@@ -4,7 +4,7 @@
 -- 	Business Question:
 -- I want to see our two products since Jan 6th and analyze conversion funnels from each product page to conversion.
 -- If you could produce a comparison between the two conversion funnels, for all website traffic as well.
--- Analysis date: 2014-04-10.
+-- Analysis date: 2013-04-10.
 
 -- step1. select all pageviews for relevant sessions:
 
