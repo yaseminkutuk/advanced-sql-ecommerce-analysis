@@ -1,4 +1,4 @@
--- 5. Product Portfolio Expansion Analysis
+-- 6. Product Portfolio Expansion Analysis
 
 -- 	Business Question:
 -- On December 12th 2013, we launched a third product targeting the birthday gift market (Birthday Bear).
