@@ -1,46 +1,90 @@
-# Advanced SQL & E-commerce Analytics Practice
+# E-commerce Analytics with Advanced SQL
 
-A collection of SQL analyses and business questions completed as part of an advanced MySQL analytics course.
+## Project Overview
 
-The purpose of this repository is to practice SQL through real-world e-commerce business problems and develop analytical thinking for Data Analyst and Business Analyst roles.
+This project explores e-commerce business performance through SQL-driven analysis using MySQL.
 
-All SQL queries in this repository were independently written and solved.
+It focuses on translating business questions into analytical queries to evaluate website performance, marketing effectiveness, customer behavior, product performance, and revenue trends.
 
-## Objectives
+The analyses aim to demonstrate how SQL can be used to extract meaningful insights from transactional and website activity data and support data-driven business decisions.
 
-- Strengthen advanced SQL skills using MySQL
-- Solve real-world e-commerce and business analytics problems
-- Translate business questions into SQL queries
-- Analyze marketing, traffic, conversion, customer, and sales data
-- Develop data-driven business insights
-- Build a practical SQL portfolio
+## Business Areas & Analysis
 
-## Topics Covered
+### 1. Traffic Source Analysis
+- Traffic source performance
+- Conversion rates by marketing channel
+- Traffic source trends
+- Marketing bid optimization
+- Campaign and device-level performance
 
-The repository will cover a range of SQL and business analytics topics, including:
+### 2. Website Performance
+- Top-performing website pages
+- Landing page analysis
+- Bounce rate calculation
+- Conversion funnel analysis
+- Landing page performance comparisons
 
-- Data aggregation and filtering
-- GROUP BY and aggregate functions
-- JOINs
-- Conversion rate analysis
-- Traffic source analysis
-- Marketing performance
-- Sales and revenue analysis
-- Customer behavior analysis
-- Subqueries
+### 3. Growth & Marketing Analysis
+- Traffic growth trends
+- Brand vs. non-brand campaign performance
+- Device-level traffic analysis
+- Marketing channel comparisons
+- Session-to-order conversion analysis
+
+### 4. Channel Portfolio Management
+- Marketing channel performance comparison
+- Channel characteristics
+- Cross-channel bid optimization
+- Channel portfolio trends
+- Direct traffic analysis
+
+### 5. Business Patterns & Seasonality
+- Seasonal performance analysis
+- Business activity patterns
+- Time-based performance trends
+
+### 6. Product Analysis
+- Product-level sales performance
+- Product launch analysis
+- Website navigation and product pathing
+- Product conversion funnels
+- Cross-selling opportunities
+- Product portfolio expansion
+- Product refund analysis
+
+## SQL Skills & Techniques
+
+- Complex JOIN operations
+- Aggregations and conditional aggregation
+- Subqueries and Common Table Expressions (CTEs)
 - CASE statements
-- Common Table Expressions (CTEs)
 - Window functions
-- Cohort analysis
-- Customer segmentation
-- Business metrics
+- Date and time-based analysis
+- Conversion rate and funnel calculations
+- Customer and product segmentation
+- Business KPI analysis
 
-*Topics will be added as the course progresses.*
+## Repository Structure
 
-##  Course
+```text
+sql/
+├── 01_traffic_sources/
+├── 02_website_performance/
+├── 03_growth_story_first_8_months/
+├── 04_channel_portfolio_management/
+├── 05_business_patterns_and_seasonality/
+└── 06_product_analysis/
+```
 
-This repository is based on exercises from:
+## Tools & Technologies
 
-**Advanced SQL: MySQL for Ecommerce Data Analysis**
+- MySQL
+- SQL
 
-[View the course on Udemy](https://www.udemy.com/course/advanced-sql-mysql-for-analytics-business-intelligence/)
+## Project Background
+
+This portfolio project builds on practical exercises from the *Advanced SQL: MySQL for Ecommerce Data Analysis* course. The queries and analyses are organized around business questions and developed to demonstrate practical SQL and analytical problem-solving skills.
+
+## Project Status
+
+Ongoing — analyses are being reviewed and refined to improve query quality, readability, and business relevance.
