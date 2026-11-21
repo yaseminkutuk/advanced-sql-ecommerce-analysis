@@ -14,4 +14,4 @@ FROM website_sessions as ws
 left join orders as o on o.website_session_id = ws.website_session_id
 WHERE ws.created_at < '2014-11-08'
 and ws.created_at >= '2014-01-01'
-group by ws.is_repeat_session
+group by ws.is_repeat_session;
